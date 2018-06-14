@@ -1,0 +1,24 @@
+.Products {
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    margin: 0px auto;
+    width: 900px;
+    background: red;
+    height: 500px;
+}
+
+.Button {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+}
+
+.Button1{
+    float: right;
+    margin-top: -525px;
+}

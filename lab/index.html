@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email"><br>
+        <label for="password">Password</label>
+        <input type="password" id="password"><br>
+        <label for="re-password">Re-Password</label>
+        <input type="password" id="re-password">
+        <br>
+        <button type="submit" onclick="register();">Register</button>
+        
+    </form>
+    <hr>
+    <form action="#">
+        <label for="login_email">E-mail</label>
+        <input type="email" id="login_email"><br>
+        <label for="login_password">Password</label>
+        <input type="password" id="login_password"><br>  
+        <button type="button" onclick="daxilOl();">Daxil Ol</button>
+  
+    </form>
+
+
+    <script src="js/es6.js"></script>
+    <script>
+        localStorage.index = JSON.stringify([]);
+    </script>
+</body>
+</html>
